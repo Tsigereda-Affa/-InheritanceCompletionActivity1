@@ -6,6 +6,7 @@ public class Software extends Product {
 
     public Software() {
         super();
+        System.out.println("       This is the software application");
     }
 
     @Override

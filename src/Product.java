@@ -1,7 +1,17 @@
 public class Product {
 
+    public Product() {
+        code = "NEW CODE";
+        description = "NEW DESCRIPTION";
+        price = 0.0;
+        //formatPrice ="";
+       System.out.println("  This is new product application");
+    }
     private String code;
     private String description;
+    private double price;
+    // private String formatPrice;
+    protected static int count = 0; // a protected static variable
 
     public String getCode() {
         return code;
@@ -31,16 +41,16 @@ public class Product {
         Product.count = count;
     }
 
-    private double price;
-   // private String formatPrice;
-    protected static int count = 0; // a protected static variable
+//    private double price;
+//   // private String formatPrice;
+//    protected static int count = 0; // a protected static variable
 
-    public Product() {
-        code = "NEW CODE";
-        description = "NEW DESCRIPTION";
-        price = 0.0;
-       //formatPrice ="";
-    }
+//    public Product() {
+//        code = "NEW CODE";
+//        description = "NEW DESCRIPTION";
+//        price = 0.0;
+//       //formatPrice ="";
+//    }
 
     // Get and set accessors for the code, description, and price instance variables
 

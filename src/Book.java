@@ -5,6 +5,7 @@ public class Book extends Product {
 
     public Book() {
         super();
+         System.out.println("          This is the book application");
     }
 
     @Override
